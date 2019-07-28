@@ -4,12 +4,12 @@ Collection of commands for testing on nimble devices.
 ## Ethereum Commands
 Running GETH in light client mode with 256MB of allocated cache.
 ```shell
-./geth --syncmode light --rpc --rpccorsdomain * --cache 256
+sudo ./geth --syncmode light --rpc --rpccorsdomain * --cache 256
 ```
 
 Running GETH in fast client mode with 512MB of allocated cache and datadir set.
 ```shell
-./geth --syncmode fast --rpc --rpccorsdomain * --cache 512 --datadir "/home/pi/external/.ethereum"
+sudo ./geth --syncmode fast --rpc --rpccorsdomain "*" --cache 512 --datadir "/home/pi/external/.ethereum"
 ```
 
 ## Bithereum Commands
