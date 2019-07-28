@@ -11,3 +11,11 @@ Running pruned Bithereum on low memory devices.
 ```shell
 ./bethd -rpcuser=bithereum -rpcpassword=bithereum -rpcallowip=0.0.0.0/0 -rpcport=18554 -port=18553 -dbcache=100 -maxmempool=10 -maxconnections=10 -prune=550 -printtoconsole
 ```
+
+## Linux 
+Mounting external drive
+```shell 
+mkdir external
+sudo fdisk -l 
+sudo mount <drivepath> external
+```
