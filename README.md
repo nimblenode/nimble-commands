@@ -9,7 +9,7 @@ Running GETH in light client mode with 256MB of allocated cache.
 
 Running GETH in fast client mode with 512MB of allocated cache and datadir set.
 ```shell
-./geth --syncmode fast --rpc --rpccorsdomain * --cache 512 --datadir=/home/pi/external/.ethereum
+./geth --syncmode fast --rpc --rpccorsdomain * --cache 512 --datadir "/home/pi/external/.ethereum"
 ```
 
 ## Bithereum Commands
