@@ -30,6 +30,9 @@ mkdir external
 # Get drive label
 sudo fdisk -l 
 
+# Format drive as ext3
+sudo mkfs.ext3 <drivepath>
+
 # Mount drive to directory using its label
 sudo mount <drivepath> external
 ```
