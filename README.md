@@ -24,6 +24,6 @@ mkdir external
 # Get drive label
 sudo fdisk -l 
 
-# mount drive to directory using its label
+# Mount drive to directory using its label
 sudo mount <drivepath> external
 ```
